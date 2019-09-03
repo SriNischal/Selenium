@@ -9,7 +9,9 @@ public class Redbus {
 	
 	public static WebDriver driver;
 	@BeforeClass
+	@Test
 public void launch()
+
 {
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\Srinischal.Thiparani\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe" );
 	driver = new ChromeDriver();
